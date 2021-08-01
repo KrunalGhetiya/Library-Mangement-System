@@ -556,7 +556,7 @@ class Library_Management(Tk):
         self.admin()
 
     def logout_Admin(self):
-        response = msg.askyesno("logout", "are you sure you want to logout?")
+        response = msg.askyesno("logout", "are you sure you want to ")
         if response:
             self.win.destroy()
         else:
